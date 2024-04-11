@@ -174,8 +174,9 @@ body{
     margin-left: 2cm;
     color: whitesmoke;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    padding-top: 100px;
-    /* background-color: blue; */
+    margin: 150px 20px 120px 20px;
+    background-color: rgb(0, 0, 4,0.3);
+    border-radius: 6%;
 }
 
 .para{
@@ -185,7 +186,7 @@ body{
 }
 
 .para button{
-    margin-left:300px;
+    margin-left:220px;
     background-color: lightseagreen;
     font-size: 25px;
     border-radius: 20%;
