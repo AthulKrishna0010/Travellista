@@ -183,6 +183,7 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    position: relative;
 }
 
 .para button{
@@ -356,4 +357,21 @@ body{
     border:1px solid;
     border-radius: 6%;
     border-color: whitesmoke;
+    
+}
+
+.reco{
+    display: grid;
+    background-color: rgb(0, 0, 4,0.3);
+    margin: 30px;
+    padding: 20px 0 20px;
+}
+
+.recommendation{
+    background-color: whitesmoke;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8%;
+    box-shadow: 0px 3px 10px whitesmoke;
 }
